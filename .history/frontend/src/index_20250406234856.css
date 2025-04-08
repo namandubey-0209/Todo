@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ✅ This now works with the safelisted + extended config */
+.todo-completed {
+  @apply line-through text-neutral-500;
+}
